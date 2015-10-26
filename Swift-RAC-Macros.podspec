@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ashfurrow/Swift-RAC-Macros.git", :tag => s.version }
   s.source_files  = "ReactiveCocoaBindings.swift"
   s.framework  = "Foundation"
-  s.dependency "ReactiveCocoa", "= 4.0.2-alpha-1"
+  s.dependency "ReactiveCocoa", "= 4.0.4-alpha-1"
   s.requires_arc = true
 end
